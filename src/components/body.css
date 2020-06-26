@@ -1,0 +1,64 @@
+.backgroundcolor {
+  background-color: #f8f9fa;
+}
+.ar1 {
+  margin-top: 8%;
+}
+.ar2 {
+  margin-top: 6%;
+}
+
+.ar3 {
+  margin-top: 6%;
+}
+.ar4 {
+  margin-top: 2%;
+}
+.ar5 {
+  margin-top: 6%;
+}
+
+.containerborder {
+  border-style: solid;
+  border-color: #f9dc3e;
+  border-width: 2px;
+}
+
+.allCoursesbtn {
+  background-color: #f7941d;
+  color: #002f5f;
+  margin-top: 3%;
+  font-size: 19px;
+}
+.btn:hover {
+  background-color: #002f5f;
+  color: white;
+}
+.card {
+  border: 0.1px solid #f8f9fa;
+}
+
+.fontsize {
+  font-size: 15px;
+}
+.stretched-link:hover {
+  border-bottom: 2px solid #f7941d;
+  text-decoration: none;
+}
+/* a.footerLink:hover {
+  color: #f7941d;
+  text-decoration: underline;
+} */
+.cardlinksfont {
+  font-size: larger;
+}
+.toppad {
+  padding-top: 5%;
+}
+.thisbackground {
+  background-color: #e1e6ea;
+}
+.spacing {
+  padding-right: 3%;
+  padding-left: 3%;
+}

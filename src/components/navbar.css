@@ -1,0 +1,76 @@
+.navbar {
+  padding-bottom: 0%;
+}
+.primaryBackground {
+  background-color: #007bff;
+}
+.tertiaryColor {
+  color: white;
+}
+/* .mainWrapper {
+  border-bottom: 0.5px solid #e5e5e5;
+} */
+.navbar-default {
+  background-color: white;
+}
+
+.logofontcolor {
+  color: #002f5f;
+  font-size: larger;
+  /* font-family: "Abril Fatface", cursive; */
+  font-family: "Oswald", sans-serif;
+}
+.carousel-inner-set {
+  width: 100%;
+  height: auto;
+}
+.divovernav {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+.dropdownbckgrnd {
+  background-color: white;
+  color: #002f5f;
+}
+.primarytextcolor {
+  color: black;
+}
+.navbar-brand-fontsize {
+  font-size: large;
+}
+
+.navDropdownLinks {
+  color: #002f5f;
+  border-bottom: 0.1px solid #f4f4f4;
+}
+
+a:hover {
+  color: #f7941d;
+}
+a.navDropdownLinks:hover {
+  color: #f7941d;
+  /* background-color: #d14a47; */
+  border-bottom: 0.1px solid #f7941d;
+}
+a.onlinkHover:hover {
+  color: #f7941d;
+  /* text-decoration: none; */
+}
+
+.quotebtn {
+  background-color: #4294f7;
+  color: white;
+}
+
+/* .navbarborder {
+  border-bottom: 0.1px solid #d3d3d3;
+} */
+.navbar-nav .nav-item .nav-link {
+  color: #002f5f;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: #f7941d;
+  border-bottom: 2px solid #f7941d;
+}

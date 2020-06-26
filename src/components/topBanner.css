@@ -1,0 +1,18 @@
+.bck {
+  background-color: #002f5f;
+  color: #f7941d;
+}
+.center {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding-top: 1%;
+  /* border: 3px solid green; */
+  /* position: absolute; */
+}
+.style {
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: "Oswald", sans-serif;
+}

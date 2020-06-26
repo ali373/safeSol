@@ -1,0 +1,42 @@
+.primaryBackground {
+  background-color: #002f5f;
+  color: white;
+}
+
+.alphaColor {
+  color: #f7cd00;
+}
+.footerMainDiv {
+  padding: 1%;
+
+  /* padding-right: 10px; */
+  /* border: 2px solid red; */
+}
+
+a.footerLink {
+  color: white;
+}
+/* a.hover:hover {
+  text-decoration: underline;
+} */
+a.footerLink:hover {
+  color: #f7941d;
+  text-decoration: underline;
+}
+/* a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+} */
+.fontsize {
+  font-size: 15px;
+}
+/* .border {
+  border: 2px soild red;
+} */
+/* .aligncontent {
+  text-align: center;
+} */
+.pad {
+  padding-left: 10%;
+}

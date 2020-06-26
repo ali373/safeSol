@@ -1,0 +1,16 @@
+.headingcolor {
+  color: #f7941d;
+  background-color: #002f5f;
+  text-align: center;
+}
+.linkcolor {
+  color: black;
+  font-size: 15px;
+  padding-left: 8%;
+}
+.borderr {
+  border-bottom: 2px solid #002f5f;
+}
+a.linkcolor:hover {
+  color: #f7941d;
+}

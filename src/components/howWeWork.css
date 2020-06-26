@@ -1,0 +1,24 @@
+.bckgrndcolor {
+  background-color: #002f5f;
+}
+.backgroundcolor {
+  background-color: #e1e6ea;
+}
+.pad2 {
+  padding-right: 6%;
+  padding-left: 6%;
+  padding-bottom: 6%;
+}
+.pad1 {
+  padding-top: 6%;
+  padding-bottom: 1%;
+}
+
+.HeadText {
+  color: #f7941d;
+}
+.pText {
+  color: white;
+  font-size: 15px;
+  /* text-align: left; */
+}

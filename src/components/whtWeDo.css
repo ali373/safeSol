@@ -1,0 +1,22 @@
+.bckgrncolor {
+  background-color: #002f5f;
+}
+.fontsize {
+  font-size: 15px;
+}
+.cardHeadText {
+  /* color: #e30514; */
+  color: #f7941d;
+}
+.cardPText {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+/* .border {
+  border: 0.1px solid red;
+} */
+.myback {
+  background-color: #e1e6ea;
+  padding: 6%;
+}
