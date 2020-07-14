@@ -1,45 +1,50 @@
 import React, { Component } from "react";
 import "./upcomingEvents.css";
+import axios from "axios";
+import Announcements from "./announcements";
 class Events extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      //   trainings: [
-      //     "Construction Safety",
-      //     "Construction Supervisor",
-      //     "Basic Firefighting Training",
-      //     "IOSH Managing Safely Certification",
-      //     "Certified scaffolders training",
-      //   ],
+      trainings: [],
     };
   }
-  render() {
+
+  async componentDidMount() {
+    const { data: trainings } = await axios.get(
+      "http://127.0.0.1:8000/coursesSchedule/"
+    );
+    this.setState({ trainings });
+  }
+  getTrainingsList(training) {
     return (
-      <div className="maindiv">
-        <div className="headcolor">
-          <strong>Future Trainings</strong>
-        </div>
-        <div className="linksdiv">
-          <a href="#" className="linkkcolor afont">
-            Construction Safety
-          </a>
-          <br />
-          {/* <a href="#" className="linkkscolor">
-          Construction Supervisor
+      <div class="list-group">
+        <a
+          href="/futureTrainingDetails"
+          class="display: flex"
+          class="list-group-item linkcolor"
+        >
+          <span className="datecolor">{training.start_date}</span> <br />
+          {training.title}
         </a>
-        <br /> */}
-          <a href="#" className="linkkcolor afont">
-            Basic Firefighting Training
-          </a>
-          <br />
-          <a href="#" className="linkkcolor afont">
-            IOSH Managing Safely
-          </a>
-          <br />
-          <a href="#" className="linkkcolor afont">
-            Certified Scaffolders Training
-          </a>
+        <br />
+      </div>
+    );
+  }
+  render() {
+    const trainings = this.state.trainings;
+    let trainingsArr = [];
+    if (trainings.length > 0) {
+      for (let i = 0; i < trainings.length; i++) {
+        trainingsArr.push(this.getTrainingsList(trainings[i]));
+      }
+    }
+    return (
+      <div className="eventsWrapper">
+        <div className="headcolor">
+          <strong>Upcoming Trainings</strong>
         </div>
+        <div className="linksdiv"> {trainingsArr} </div>
       </div>
     );
   }

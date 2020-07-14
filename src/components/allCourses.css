@@ -1,0 +1,22 @@
+.heading {
+  color: #002f5f;
+  text-align: center;
+}
+.text {
+  color: #f7941d;
+  text-align: center;
+}
+.thistextarea {
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
+.links {
+  color: #002f5f;
+}
+.links:hover {
+  color: #f7941d;
+}
+.contentdiv {
+  /* border: 2px solid red; */
+  background-color: #e1e6ea;
+}

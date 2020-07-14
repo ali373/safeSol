@@ -1,7 +1,32 @@
-.topmostdiv {
-  background-color: #f9dc3e;
-}
 .homePriBackground {
-  /* background-color: #e5e5e5#e6e6ff; */
   background-color: #f8f9fa;
+}
+.primaryTxtColor {
+  color: #002f5f;
+}
+.secondaryTxtColor {
+  color: #f7941d;
+}
+.tertiaryTxtColor {
+  color: #f8f9fa;
+}
+.quaternaryTxtColor {
+  color: #e1e6ea;
+}
+
+/* .quinaryTxtColor {
+} */
+
+.primaryBckgdColor {
+  background-color: #002f5f;
+}
+
+.secondaryBckgdColor {
+  background-color: #f7941d;
+}
+.tertiaryBckgdColor {
+  background-color: #f8f9fa;
+}
+.quaternaryBckgdColor {
+  background-color: #e1e6ea;
 }

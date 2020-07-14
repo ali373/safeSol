@@ -1,24 +1,40 @@
+.eventsWrapper {
+  /* border: 2px solid brown; */
+  margin-bottom: 15%;
+  background-color: #f8f9fa;
+}
 .headcolor {
   color: #f7941d;
   background-color: #002f5f;
-  padding: 1% 1%;
+
   text-align: center;
+  overflow-x: auto;
 }
 .brder {
   border: 0.1px solid #e30514;
 }
-.linkkcolor {
-  color: black;
+.linkcolor {
+  color: #002f5f;
   font-size: 15px;
-
+  overflow-x: auto;
+  /* padding-left: 8%;
+  padding-right: 0%; */
   /* margin-left: 0px; */
 }
+a.linkcolor:hover {
+  color: #f7941d;
+}
 .linksdiv {
-  padding-left: 8%;
+  overflow-x: auto;
 }
 .afont {
   font-size: 15px;
 }
-.maindiv {
-  border-bottom: 2px solid #002f5f;
+
+.datecolor {
+  color: #f7941d;
+}
+
+.datecolor:hover {
+  color: #002f5f;
 }

@@ -1,9 +1,10 @@
 .sliderText {
   text-align: center;
-  /* color: #f9dc3e; */
-  /* border: 5px solid #f9dc3e; */
+
   background-color: #e5e5e5;
 }
-.carousel-item {
-  height: 450px;
+. .sliderwrapper {
+  margin-bottom: 2%;
+  padding: 0%;
+  /* border: 2px solid yellow; */
 }

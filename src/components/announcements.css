@@ -1,16 +1,22 @@
+.announcementsWrapper {
+  /* border: 2px solid black; */
+  margin-bottom: 12%;
+  background-color: #f8f9fa;
+}
 .headingcolor {
   color: #f7941d;
   background-color: #002f5f;
   text-align: center;
+  overflow-x: auto;
 }
-.linkcolor {
-  color: black;
+.thislinkcolor {
+  color: #002f5f;
   font-size: 15px;
-  padding-left: 8%;
+  overflow-x: auto;
+  /* padding-left: 8%;
+  padding-right: 0%; */
 }
-.borderr {
-  border-bottom: 2px solid #002f5f;
-}
-a.linkcolor:hover {
+
+a.thislinkcolor:hover {
   color: #f7941d;
 }

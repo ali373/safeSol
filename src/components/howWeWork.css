@@ -5,8 +5,8 @@
   background-color: #e1e6ea;
 }
 .pad2 {
-  padding-right: 6%;
-  padding-left: 6%;
+  padding-right: 7%;
+  padding-left: 7%;
   padding-bottom: 6%;
 }
 .pad1 {
@@ -21,4 +21,8 @@
   color: white;
   font-size: 15px;
   /* text-align: left; */
+}
+.howeworkWrapper {
+  /* border: 2px solid green; */
+  margin-bottom: 9%;
 }

@@ -8,14 +8,13 @@ class Whtwedo extends Component {
   }
   render() {
     return (
-      <div className="container myback">
+      <div className="container whtwedoWrapper">
         <h5 style={{ textAlign: "center", color: "#002f5f" }}>
           <strong>What we do</strong>
         </h5>
         <p style={{ textAlign: "center" }} className="fontsize">
-          Safe Solutions is focused on delivering best quality Training and
-          provide Consultancy services in Quality, Health, Safety and
-          Environment (QHSE)
+          HseCertIntl is focused on delivering best quality Training and provide
+          Consultancy services in Quality, Health, Safety and Environment (QHSE)
         </p>
 
         <div class="row">
@@ -26,8 +25,9 @@ class Whtwedo extends Component {
                   Training
                 </h5>
                 <p class="card-text" className="cardPText">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  We offer Occupational Safety, Health, Environment and Quality
+                  trainings and development keys for your organization,
+                  individual and team competency.
                 </p>
               </div>
             </div>
@@ -40,8 +40,9 @@ class Whtwedo extends Component {
                   Consultancy
                 </h5>
                 <p class="card-text" className="cardPText">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  Our consultants offer value adding services to manage your
+                  organization's health and safety affairs and help you reeduce
+                  your ill health and injury related costs.
                 </p>
               </div>
             </div>
@@ -54,8 +55,11 @@ class Whtwedo extends Component {
                   Auditing
                 </h5>
                 <p class="card-text" className="cardPText">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  HSE Cert. International also facilitates its clients in
+                  international ass well as supplier auditing.
+                  <br />
+                  <br />
+                  <br />
                 </p>
               </div>
             </div>

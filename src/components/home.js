@@ -19,20 +19,6 @@ class Home extends Component {
         <Navbar />
         <Slider />
         <Body />
-        {/* <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br /> */}
         <Footer />
       </div>
     );

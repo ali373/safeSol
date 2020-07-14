@@ -1,15 +1,14 @@
 .navbar {
-  padding-bottom: 0%;
+  padding: 0%;
+  /* overflow: auto; */
 }
-.primaryBackground {
-  background-color: #007bff;
+.liststyle {
+  float: right;
 }
 .tertiaryColor {
   color: white;
 }
-/* .mainWrapper {
-  border-bottom: 0.5px solid #e5e5e5;
-} */
+
 .navbar-default {
   background-color: white;
 }
@@ -20,15 +19,7 @@
   /* font-family: "Abril Fatface", cursive; */
   font-family: "Oswald", sans-serif;
 }
-.carousel-inner-set {
-  width: 100%;
-  height: auto;
-}
-.divovernav {
-  background-color: #007bff;
-  color: white;
-  text-align: center;
-}
+
 .dropdownbckgrnd {
   background-color: white;
   color: #002f5f;
@@ -44,13 +35,12 @@
   color: #002f5f;
   border-bottom: 0.1px solid #f4f4f4;
 }
-
-a:hover {
-  color: #f7941d;
+a.navDropdownLinks:active {
+  color: white;
+  background-color: #002f5f;
 }
 a.navDropdownLinks:hover {
   color: #f7941d;
-  /* background-color: #d14a47; */
   border-bottom: 0.1px solid #f7941d;
 }
 a.onlinkHover:hover {
@@ -58,14 +48,6 @@ a.onlinkHover:hover {
   /* text-decoration: none; */
 }
 
-.quotebtn {
-  background-color: #4294f7;
-  color: white;
-}
-
-/* .navbarborder {
-  border-bottom: 0.1px solid #d3d3d3;
-} */
 .navbar-nav .nav-item .nav-link {
   color: #002f5f;
 }

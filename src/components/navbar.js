@@ -9,15 +9,15 @@ class Navbar extends Component {
     this.state = {}; //this state object contains any data that this component needs
     //Linkutomatic refactoring of code in vs code in win?
   }
-  //how to change toggler color...?
+
   render() {
     return (
-      <div className="mainWrapper">
-        <nav class="navbar navbar-expand-md navbar-light bg-light mainWrapper ">
+      <div className="mainWrapper container-fluid">
+        <nav className="navbar navbar-expand-sm navbar-light bg-light mainWrapper">
           <NavLink class="navbar-brand" className="logofontcolor" to="/">
             <strong>
-              Safe<span style={{ color: "#f7941d" }}>Solutions</span>
-              Int.
+              Hse<span style={{ color: "#f7941d" }}>Cert</span>
+              Intl.
             </strong>
           </NavLink>
           <button
@@ -33,7 +33,7 @@ class Navbar extends Component {
           </button>
 
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-5">
+            <ul class="navbar-nav">
               <li class="nav-item active">
                 <NavLink class="nav-link" to="/">
                   Home <span class="sr-only">(current)</span>
@@ -48,12 +48,13 @@ class Navbar extends Component {
                   About us
                 </NavLink>
                 <div class="dropdown-menu dropdownbckgrnd">
-                  <NavLink class="dropdown-item navDropdownLinks" to="/">
+                  <NavLink class="dropdown-item navDropdownLinks" to="/company">
                     Company
                   </NavLink>
-                  <NavLink class="dropdown-item navDropdownLinks" to="/">
+                  <NavLink class="dropdown-item navDropdownLinks" to="/team">
                     Team
                   </NavLink>
+
                   <NavLink class="dropdown-item navDropdownLinks" to="/">
                     Approvals
                   </NavLink>

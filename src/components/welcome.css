@@ -1,12 +1,16 @@
+.welcomewrapper {
+  padding-top: 0%;
+  margin-top: 0%;
+  /* border: 2px solid red; */
+  margin-bottom: 12%;
+}
 .h5font {
   color: #002f5f;
 }
 .fontsize {
   font-size: 15px;
 }
-.btnfontsize {
-  font-size: 19px;
-}
+
 .btn:hover {
   background-color: #002f5f;
   color: white;
@@ -17,12 +21,11 @@
 .imgpad {
   padding-right: 20px;
 }
-/* .ar1 {
-  padding-top: 0%;    
-} */
+
 .learnMorebtn {
   background-color: #f7941d;
-  color: 002f5f;
+  color: #002f5f;
   margin-top: 3%;
-  font-size: 15px;
+  margin-bottom: 13%;
+  font-size: 19px;
 }

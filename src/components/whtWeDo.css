@@ -11,12 +11,14 @@
 .cardPText {
   color: white;
   font-size: 15px;
-  text-align: center;
+  text-align: left;
 }
 /* .border {
   border: 0.1px solid red;
 } */
-.myback {
+.whtwedoWrapper {
   background-color: #e1e6ea;
   padding: 6%;
+  /* border: 2px solid orange; */
+  margin-bottom: 12%;
 }

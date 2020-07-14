@@ -308,3 +308,109 @@
           <div className="col-md-3">
            <Announcements />
          </div>
+         /----------------------------------------------------8/7/20/
+           {/* <div key= {cities.id} class="col-md-2">
+					<a className="links" onClick={() => this.getEventByCity(cities.id)}> <span className="listColor">{cities.name}</span></a><br/>
+				</div> */}
+{/* 
+        getEventByCity(id){
+            var url = 'http://192.168.0.104:8000/event/allEvents/?event_city='+id;
+            let tagslist = this.state.checkBoxStatus;
+
+            if(tagslist.length > 0){
+              for(var i = 0 ; i < tagslist.length; i++){
+                url = url + '&event_tag=' + tagslist[i];
+                  }
+            }
+            let eventCategory = this.state.CategoryId;
+            if(eventCategory != ''){
+              url = url + '&event_type=' + eventCategory;
+            }
+            
+            axios.get(url)
+            .then(response => {
+                
+              this.setState({
+                events:response.data.results
+              })
+            })
+            .catch(error =>{
+              console.log(error);
+            })
+          } */}
+          {/* onClick = {() => this.getArchives()} */}
+          --------------------------------------------------------------------- 9/7/20
+          // async componentDidMount() {
+    //     const { data: courseImages } = await axios.get(
+    //       "http://127.0.0.1:8000/courseImages/"
+    //     );
+    //     const { data: archives } = await axios.get(
+    //       "http://127.0.0.1:8000/archives/"
+    //     );
+    //     // console.log(archives);
+    //     this.setState({ courseImages, archives });
+    //     // console.log(courseImages);
+    // }
+    
+     {/* <div class="row">
+          <div class="col-md">
+            <div class="thumbnail">
+              <a href="/w3images/lights.jpg">
+                <img
+                  src="/w3images/lights.jpg"
+                  alt="Lights"
+                  style="width:100%"
+                />
+              </a>
+            </div>
+          </div>
+        </div> */}
+        -------------------------------------------------------------
+        11/7/20
+        <div className="container imagegallery">
+        <h5 className="welcomemsg">
+          <strong>Welcome to HSE Cert. International Image Gallery </strong>
+        </h5>
+        <div class="row">
+          <div className="col-md-4">
+            <img
+              className="img-fluid img-thumbnail"
+              src={img1}
+              alt="Lights"
+            />
+          </div>
+          <div className="col-md-4">
+            <img
+              className="img-fluid img-thumbnail"
+              src={img2}
+              alt="Nature"
+            />
+          </div>
+          <div className="col-md-4">
+            <img
+              className="img-fluid img-thumbnail"
+              src={img3}
+              alt="Nature"
+            />
+          </div>
+        </div>
+      </div>
+      -----------------------------------------------------------------12/7/20 
+       {/* <div className="linksdiv">
+          <a href="#" className="linkkcolor afont">
+            Construction Safety
+          </a>
+          <br />
+
+          <a href="#" className="linkkcolor afont">
+            Basic Firefighting Training
+          </a>
+          <br />
+          <a href="#" className="linkkcolor afont">
+            IOSH Managing Safely
+          </a>
+          <br />
+          <a href="#" className="linkkcolor afont">
+            Certified Scaffolders Training
+          </a>
+        </div> */}

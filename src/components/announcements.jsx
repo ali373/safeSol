@@ -1,50 +1,49 @@
 import React, { Component } from "react";
 import "./announcements.css";
+import axios from "axios";
 class Announcements extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      //   announcements: [
-      //     "Announcement1",
-      //     "Announcement2",
-      //     "Announcement3",
-      //     "Announcement4",
-      //     "Announcement5",
-      //   ],
+      announcements: [],
     };
   }
-  render() {
-    let aStyle = {
-      //   paddingLeft: "0px",
-      //   margin: "0px",
-      //   color: "white",
-    };
+
+  async componentDidMount() {
+    const { data: announcements } = await axios.get(
+      "http://127.0.0.1:8000/announcements/"
+    );
+    this.setState({ announcements });
+  }
+  getAnnouncements(announcement) {
     return (
-      <div class="flex-column" className="borderr">
-        <div class="display: flex" className="headingcolor">
+      <div className="list-group">
+        <a
+          href="/announcementDetails"
+          class="display: flex"
+          className="list-group-item thislinkcolor"
+        >
+          {announcement.title}
+        </a>
+        <br />
+      </div>
+    );
+  }
+  render() {
+    let announcementArr = [];
+    const announcements = this.state.announcements;
+    if (announcements.length > 0) {
+      for (let i = 0; i < announcements.length; i++) {
+        announcementArr.push(this.getAnnouncements(announcements[i]));
+      }
+    }
+    return (
+      <div className="announcementsWrapper">
+        <div className="headingcolor">
           <strong>Announcements</strong>
         </div>
-        <div>
-          <a href="#" class="display: flex" className="linkcolor">
-            Announcement1
-          </a>
-          <br />
-          <a href="#" className="linkcolor">
-            Announcement2
-          </a>
-          <br />
-          <a href="#" className="linkcolor">
-            Announcement3
-          </a>
-          <br />
-          <a href="#" className="linkcolor">
-            Announcement4
-          </a>
-          <br />
-          <a href="#" className="linkcolor">
-            Announcement5
-          </a>
-        </div>
+
+        <div>{announcementArr}</div>
       </div>
     );
   }
